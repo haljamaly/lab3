@@ -12,7 +12,7 @@ function initializePage() {
 		$('.jumbotron h1').text("Javascript is connected");
 		$(this).text("Your edges are officially SNATCHED.");
 		$(".jumbotron p").addClass("active");
-		$("").toggleClass("active");
+		$("#testjs").toggleClass("active");
 	});
 
 	$(".project").click(projectClick);
